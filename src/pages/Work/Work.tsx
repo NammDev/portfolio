@@ -24,7 +24,7 @@ function Work() {
                 <div className=' overflow-hidden rounded-lg'>
                   <img
                     className='h-auto    w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110 '
-                    src='/static/media/4.88cbfcc5617deb5b50bf.jpg'
+                    src='https://bostamireact.ibthemespro.com/static/media/4.88cbfcc5617deb5b50bf.jpg'
                     alt=''
                   />
                 </div>
@@ -39,10 +39,10 @@ function Work() {
                 className='rounded-lg border-[#212425] p-6 dark:border-[2px]'
                 style={{ background: 'rgb(244, 244, 255)' }}
               >
-                <div className=' overflow-hidden rounded-lg'>
+                <div className='overflow-hidden rounded-lg'>
                   <img
-                    className='h-auto    w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110 '
-                    src='/static/media/6.32b246bf9e52f0830156.jpg'
+                    className='h-auto w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110 '
+                    src='https://bostamireact.ibthemespro.com/static/media/6.32b246bf9e52f0830156.jpg'
                     alt=''
                   />
                 </div>

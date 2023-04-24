@@ -2,8 +2,8 @@ import Footer from 'src/components/Footer'
 
 function Blog() {
   return (
-    <section className='bg-white  dark:bg-[#111111] lg:rounded-2xl'>
-      <div data-aos='fade' className='aos-init'>
+    <section className='bg-white dark:bg-[#111111] lg:rounded-2xl'>
+      <div data-aos='fade' className='aos-init aos-animate'>
         <div className='container px-4 sm:px-5 md:px-10 lg:px-[60px]'>
           <div className='py-12'>
             <h2 className='after-effect mt-12 after:left-32 lg:mt-0'>Blogs</h2>
@@ -15,7 +15,7 @@ function Blog() {
                 <div className='overflow-hidden rounded-lg'>
                   <img
                     className='w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110'
-                    src='/static/media/1.5da97bc494017804e9df.jpg'
+                    src='https://bostamireact.ibthemespro.com/static/media/1.5da97bc494017804e9df.jpg'
                     alt='blog'
                   />
                 </div>
@@ -36,7 +36,7 @@ function Blog() {
                 <div className='overflow-hidden rounded-lg'>
                   <img
                     className='w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110'
-                    src='/static/media/4.0e4876b305a3d30ecf1e.jpg'
+                    src='https://bostamireact.ibthemespro.com/static/media/4.0e4876b305a3d30ecf1e.jpg'
                     alt='blog'
                   />
                 </div>
@@ -57,7 +57,7 @@ function Blog() {
                 <div className='overflow-hidden rounded-lg'>
                   <img
                     className='w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110'
-                    src='/static/media/2.2a5042442f4461042991.jpg'
+                    src='https://bostamireact.ibthemespro.com/static/media/2.2a5042442f4461042991.jpg'
                     alt='blog'
                   />
                 </div>
