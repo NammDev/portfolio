@@ -17,10 +17,6 @@ function useRouteElement() {
           element: <About />
         },
         {
-          path: 'about',
-          element: <About />
-        },
-        {
           path: 'resume',
           element: <Resume />
         },

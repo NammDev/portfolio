@@ -1,14 +1,14 @@
 function Info() {
   return (
     <div>
-      <div className='relative mx-auto mb-6  mt-[180px]   w-full rounded-[20px] bg-white px-6 text-center dark:bg-[#111111] md:mt-[220px] lg:mb-0 lg:mt-0 '>
+      <div className='relative mx-auto mb-6  mt-[180px] w-full rounded-[20px] bg-white px-6 text-center dark:bg-[#111111] md:mt-[220px]  lg:mb-0 lg:mt-0 '>
         <img
-          src='/static/media/avatar.418c8afc380507acd425.jpg'
+          src='https://bostamireact.ibthemespro.com/static/media/avatar.418c8afc380507acd425.jpg'
           className='absolute left-[50%] mx-auto -mt-[140px] h-[240px] w-[240px] -translate-x-[50%] transform  rounded-[20px] drop-shadow-xl'
           alt=''
         />
         <div className='pb-8 pt-[100px]'>
-          <h1 className='mb-1 mt-6 text-5xl font-semibold  dark:text-white'>Monalisa Ashley</h1>
+          <h1 className='mb-1 mt-6 text-3xl font-semibold  dark:text-white'>Monalisa Ashley</h1>
           <h3 className='mb-4 inline-block rounded-lg px-5 py-1.5 text-[#7B7B7B] dark:bg-[#1D1D1D] dark:text-[#A6A6A6]  '>
             Ui/Ux Designer
           </h3>
@@ -99,7 +99,7 @@ function Info() {
                 </p>
               </div>
             </div>
-            <div className='flex  border-b border-[#E3E3E3] py-2.5 dark:border-[#3D3A3A]'>
+            <div className='flex border-b border-[#E3E3E3] py-2.5 dark:border-[#3D3A3A]'>
               <span className='socialbtn flex-shrink-0 bg-white text-[#6AB5B9] shadow-md dark:bg-black'>
                 <svg
                   stroke='currentColor'

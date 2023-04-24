@@ -1,3 +1,5 @@
+import Footer from 'src/components/Footer'
+
 function Work() {
   return (
     <section className='bg-white  dark:bg-[#111111] lg:rounded-2xl'>
@@ -26,7 +28,7 @@ function Work() {
                     alt=''
                   />
                 </div>
-                <span className='text-gray-lite block pt-5 text-[14px] font-normal dark:text-[#A6A6A6]'>Video</span>
+                <span className='block pt-5 text-[14px] font-normal text-[#44566C] dark:text-[#A6A6A6]'>Video</span>
                 <h2 className='mt-2 cursor-pointer text-xl font-medium transition duration-300 hover:text-[#FA5252] dark:text-white dark:hover:text-[#FA5252]'>
                   Chul urina
                 </h2>
@@ -44,7 +46,7 @@ function Work() {
                     alt=''
                   />
                 </div>
-                <span className='text-gray-lite block pt-5 text-[14px] font-normal dark:text-[#A6A6A6]'>Video</span>
+                <span className='block pt-5 text-[14px] font-normal text-[#44566C] dark:text-[#A6A6A6]'>Video</span>
                 <h2 className='mt-2 cursor-pointer text-xl font-medium transition duration-300 hover:text-[#FA5252] dark:text-white dark:hover:text-[#FA5252]'>
                   Chul urina
                 </h2>
@@ -52,20 +54,7 @@ function Work() {
             </div>
           </div>
         </div>
-        <footer className='overflow-hidden rounded-b-2xl' style={{ background: 'rgb(248, 251, 251)' }}>
-          <p className='text-gray-lite dark:text-color-910 py-6  text-center '>
-            © 2022 All Rights Reserved by{' '}
-            <a
-              className='transition duration-300 hover:text-[#FA5252]'
-              href='https://themeforest.net/user/ib-themes'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              ib-themes
-            </a>
-            .
-          </p>
-        </footer>
+        <Footer />
       </div>
     </section>
   )

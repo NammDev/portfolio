@@ -1,3 +1,5 @@
+import Footer from 'src/components/Footer'
+
 function Blog() {
   return (
     <section className='bg-white  dark:bg-[#111111] lg:rounded-2xl'>
@@ -17,7 +19,7 @@ function Blog() {
                     alt='blog'
                   />
                 </div>
-                <div className='text-tiny text-gray-lite mt-4 flex dark:text-[#A6A6A6]'>
+                <div className='text-tiny mt-4 flex text-[#44566C] dark:text-[#A6A6A6]'>
                   <span>177 April</span>
                   <span className='after:bg-gray-lite relative transform pl-6 after:absolute after:left-2 after:top-[50%] after:h-1 after:w-1 after:-translate-y-1/2 after:rounded-full'>
                     Inspiration
@@ -38,7 +40,7 @@ function Blog() {
                     alt='blog'
                   />
                 </div>
-                <div className='text-tiny text-gray-lite mt-4 flex dark:text-[#A6A6A6]'>
+                <div className='text-tiny mt-4 flex text-[#44566C] dark:text-[#A6A6A6]'>
                   <span>000 April</span>
                   <span className='after:bg-gray-lite relative transform pl-6 after:absolute after:left-2 after:top-[50%] after:h-1 after:w-1 after:-translate-y-1/2 after:rounded-full'>
                     Inspiration
@@ -59,7 +61,7 @@ function Blog() {
                     alt='blog'
                   />
                 </div>
-                <div className='text-tiny text-gray-lite mt-4 flex dark:text-[#A6A6A6]'>
+                <div className='text-tiny mt-4 flex text-[#44566C] dark:text-[#A6A6A6]'>
                   <span>21 April</span>
                   <span className='after:bg-gray-lite relative transform pl-6 after:absolute after:left-2 after:top-[50%] after:h-1 after:w-1 after:-translate-y-1/2 after:rounded-full'>
                     Web Design
@@ -80,7 +82,7 @@ function Blog() {
                     alt='blog'
                   />
                 </div>
-                <div className='text-tiny text-gray-lite mt-4 flex dark:text-[#A6A6A6]'>
+                <div className='text-tiny mt-4 flex text-[#44566C] dark:text-[#A6A6A6]'>
                   <span>27 April</span>
                   <span className='after:bg-gray-lite relative transform pl-6 after:absolute after:left-2 after:top-[50%] after:h-1 after:w-1 after:-translate-y-1/2 after:rounded-full'>
                     Inspiration
@@ -93,20 +95,7 @@ function Blog() {
             </div>
           </div>
         </div>
-        <footer className='overflow-hidden rounded-b-2xl' style={{ background: 'rgb(248, 251, 251)' }}>
-          <p className='text-gray-lite dark:text-color-910 py-6  text-center '>
-            © 2022 All Rights Reserved by{' '}
-            <a
-              className='transition duration-300 hover:text-[#FA5252]'
-              href='https://themeforest.net/user/ib-themes'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              ib-themes
-            </a>
-            .
-          </p>
-        </footer>
+        <Footer />
       </div>
     </section>
   )
