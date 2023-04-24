@@ -3,7 +3,7 @@ import Footer from 'src/components/Footer'
 function Work() {
   return (
     <section className='bg-white  dark:bg-[#111111] lg:rounded-2xl'>
-      <div data-aos='fade' className='aos-init aos-animate'>
+      <div data-aos='fade' className=''>
         <div className='container mb-8   px-4 sm:px-5 md:px-10 lg:px-[60px]'>
           <div className='py-12'>
             <h2 className='after-effect  mt-12 after:left-48  lg:mt-0'>Portfolio</h2>

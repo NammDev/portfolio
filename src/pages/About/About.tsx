@@ -4,7 +4,7 @@ function About() {
   return (
     <section>
       <div className='bg-white dark:bg-[#111111] lg:rounded-2xl'>
-        <div className='aos-init aos-animate' data-aos='fade'>
+        <div className='' data-aos='fade'>
           <div className='px-2 pt-12 sm:px-5 md:px-10 md:py-12 lg:px-14'>
             <h2 className='after-effect after:left-52'>About Me</h2>
             <div className='lg:hidden'>

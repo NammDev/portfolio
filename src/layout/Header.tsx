@@ -5,7 +5,7 @@ import pathConst from 'src/constants/path'
 function Header() {
   return (
     <div
-      className='aos-init aos-animate container flex w-full justify-between bg-[#F3F6F6] py-5 dark:bg-black lg:bg-transparent lg:px-0 lg:pt-[50px] lg:dark:bg-transparent'
+      className='container flex w-full justify-between bg-[#F3F6F6] py-5 dark:bg-black lg:bg-transparent lg:px-0 lg:pt-[50px] lg:dark:bg-transparent'
       data-aos='fade'
     >
       <div className='flex w-full justify-between  px-4'>

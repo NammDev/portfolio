@@ -8,7 +8,7 @@ function Contact() {
       </h2>
       <div
         data-aos='fade'
-        className='aos-init aos-animate mx-4 mb-[30px] rounded-xl bg-[#F8FBFB] p-4 dark:border-2 dark:border-[#212425] dark:bg-[#111111] md:mx-[60px] md:mb-[60px] md:p-16'
+        className=' mx-4 mb-[30px] rounded-xl bg-[#F8FBFB] p-4 dark:border-2 dark:border-[#212425] dark:bg-[#111111] md:mx-[60px] md:mb-[60px] md:p-16'
       >
         <h3 className='text-2xl'>
           <span className='text-[#44566C] dark:text-[#A6A6A6] '>I&apos;m always open to discussing product</span>

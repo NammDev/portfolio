@@ -3,7 +3,7 @@ import Footer from 'src/components/Footer'
 function Resume() {
   return (
     <section className='bg-white  dark:bg-[#111111] lg:rounded-2xl'>
-      <div data-aos='fade' className='aos-init aos-animate'>
+      <div data-aos='fade' className=''>
         <div className='container sm:px-5 md:px-10 lg:px-14'>
           <div className='px-4 py-12 md:px-0'>
             <h2 className='after-effect after:left-44'>Resume</h2>
