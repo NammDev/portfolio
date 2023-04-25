@@ -42,7 +42,7 @@ const experienceArray = [
         where: 'ABC University, Los Angeles, CA'
       },
       {
-        bgColor: 'bg-[#FFF4F4]',
+        bgColor: 'bg-[#FFF1FB]',
         year: '2021 - 2023',
         title: 'Ph.D in Horriblensess',
         where: 'ABC University, Los Angeles, CA'
@@ -60,19 +60,19 @@ const experienceArray = [
     header: 'Education',
     school: [
       {
-        bgColor: 'bg-[#FFF4F4]',
+        bgColor: 'bg-[#EEF5FA]',
         year: '2021 - 2023',
         title: 'Ph.D in Horriblensess',
         where: 'ABC University, Los Angeles, CA'
       },
       {
-        bgColor: 'bg-[#FFF4F4]',
+        bgColor: 'bg-[#F2F4FF]',
         year: '2021 - 2023',
         title: 'Ph.D in Horriblensess',
         where: 'ABC University, Los Angeles, CA'
       },
       {
-        bgColor: 'bg-[#FFF4F4]',
+        bgColor: 'bg-[#EEF5FA]',
         year: '2021 - 2023',
         title: 'Ph.D in Horriblensess',
         where: 'ABC University, Los Angeles, CA'

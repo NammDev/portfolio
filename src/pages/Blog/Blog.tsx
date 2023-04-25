@@ -8,10 +8,7 @@ function Blog() {
           <div className='py-12'>
             <h2 className='after-effect mt-12 after:left-32 lg:mt-0'>Blogs</h2>
             <div className='mb-6 mt-[30px] grid  grid-cols-1 gap-x-10   gap-y-7 sm:grid-cols-2  lg:grid-cols-2'>
-              <div
-                className='mb-2 h-full rounded-lg p-5 dark:border-2 dark:border-[#212425]'
-                style={{ background: 'rgb(252, 244, 255)' }}
-              >
+              <div className='mb-2 h-full rounded-lg bg-[#FCF4FF] p-5 dark:border-2 dark:border-[#212425] dark:bg-transparent'>
                 <div className='overflow-hidden rounded-lg'>
                   <img
                     className='w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110'
@@ -29,10 +26,7 @@ function Blog() {
                   How to Own Your Audience by Creating an Email List.
                 </h3>
               </div>
-              <div
-                className='mb-2 h-full rounded-lg p-5 dark:border-2 dark:border-[#212425]'
-                style={{ background: 'rgb(238, 251, 255)' }}
-              >
+              <div className='mb-2 h-full rounded-lg bg-[#EEFBFF] p-5 dark:border-2 dark:border-[#212425] dark:bg-transparent'>
                 <div className='overflow-hidden rounded-lg'>
                   <img
                     className='w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110'
@@ -50,10 +44,7 @@ function Blog() {
                   Everything You Need to Know About Web Accessibility.
                 </h3>
               </div>
-              <div
-                className='mb-2 h-full rounded-lg p-5 dark:border-2 dark:border-[#212425]'
-                style={{ background: 'rgb(255, 240, 240)' }}
-              >
+              <div className='mb-2 h-full rounded-lg bg-[#FFF0F0] p-5 dark:border-2 dark:border-[#212425] dark:bg-transparent'>
                 <div className='overflow-hidden rounded-lg'>
                   <img
                     className='w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110'
@@ -71,10 +62,7 @@ function Blog() {
                   The window know to say beside you
                 </h3>
               </div>
-              <div
-                className='mb-2 h-full rounded-lg p-5 dark:border-2 dark:border-[#212425]'
-                style={{ background: 'rgb(252, 244, 255)' }}
-              >
+              <div className='mb-2 h-full rounded-lg bg-[#FCF4FF] p-5 dark:border-2 dark:border-[#212425] dark:bg-transparent'>
                 <div className='overflow-hidden rounded-lg'>
                   <img
                     className='w-full transform cursor-pointer rounded-lg transition duration-200 ease-in-out hover:scale-110'
