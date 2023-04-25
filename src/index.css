@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 @layer components {
@@ -41,20 +42,6 @@ html {
 }
 .ReactModal__Overlay {
   background-color: rgba(0, 0, 0, 0.8) !important;
-}
-
-.slick-slide {
-  padding: 30px 60px;
-  align-items: center;
-}
-.slick-track {
-  display: flex !important;
-  align-items: center;
-}
-
-/* responsive css */
-.swiper-container {
-  width: 480px;
 }
 
 .my-masonry-grid {
@@ -151,46 +138,3 @@ input:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
   background: none !important;
 }
-
-@media screen and (min-width: 640px) {
-  .swiper-container {
-    width: 640px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .swiper-container {
-    width: 768px;
-  }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .slick-slide {
-    padding: 10px 20px;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .slick-slide {
-    padding: 15px 30px;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .slick-slide {
-    padding: 20px 30px;
-  }
-
-  .swiper-container {
-    width: 992px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
