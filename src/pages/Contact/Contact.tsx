@@ -1,6 +1,23 @@
+import { LegacyRef, useRef } from 'react'
+import { toast } from 'react-toastify'
 import Footer from 'src/components/Footer'
+import { sendForm } from '@emailjs/browser'
 
 function Contact() {
+  const form = useRef() as LegacyRef<HTMLFormElement>
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    sendForm('service_3t94dhq', 'template_rpblydo', e.currentTarget, 'uG2BgKOy6yaPSHBAh').then(
+      () => {
+        toast.success('Message Sent successfully!')
+      },
+      (error) => {
+        toast.error('Ops Message not Sent!')
+      }
+    )
+  }
+
   return (
     <div className='bg-white  dark:bg-[#111111] lg:rounded-2xl'>
       <h2 className='after-effect mb-12 pl-4 pt-12 after:left-60 after:top-[76px] md:mb-[30px] md:pl-[60px]'>
@@ -15,7 +32,7 @@ function Contact() {
           <br />
           <span className='font-semibold dark:text-white'>design work or partnerships.</span>
         </h3>
-        <form id='myForm'>
+        <form id='myForm' ref={form} onSubmit={sendEmail}>
           <div className='group  relative z-0 mb-8 mt-[40px] w-full'>
             <input
               type='text'
